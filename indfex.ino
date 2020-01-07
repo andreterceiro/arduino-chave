@@ -1,9 +1,7 @@
-// Provisório
-
 void setup() {
-    pinMode(2, INPUT);
+    pinMode(1, OUTPUT);
 }
 
 void loop() {
-   Serial.println(digitalRead(2)); 
+   digitalWrite(2, digitalRead(1)); 
 }
