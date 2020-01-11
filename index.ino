@@ -1,8 +1,9 @@
-
 void setup() {
-    pinMode(1, OUTPUT);
+    pinMode(6, INPUT);
+    Serial.begin(9600);
+    
 }
 
 void loop() {
-   digitalWrite(2, digitalRead(1)); 
-}
+     Serial.println(digitalRead(6));
+}   
